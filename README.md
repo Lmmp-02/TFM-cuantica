@@ -1,32 +1,32 @@
 # Quantum and Classical Portfolio Optimization
 
-Este proyecto explora distintos enfoques para la optimización de carteras financieras utilizando tanto métodos clásicos como aproximaciones cuánticas. Utiliza un conjunto de datos histórico de la bolsa de valores para comparar la eficiencia de ambos modelos.
+This project explores different approaches to financial portfolio optimization using both classical methods and quantum-based techniques. It uses a historical stock market dataset to compare the efficiency of both models.
 
 ## Estructura del Proyecto
 
 ```
-├── dataset/                          # Archivos CSV con datos históricos de precios de acciones
+├── dataset/                          # CSV files with historical stock price data
 │ ├── all_stocks_5yr.csv
 │ └── stocks_cleaned.csv
-├── notebooks/                        # Notebooks con los distintos experimentos
+├── notebooks/                        # Notebooks with the different experiments
 │ ├── Classical_Approximation.ipynb
 │ ├── Quantum_Approximation.ipynb
 │ └── Preprocess_Stocks.ipynb
-├── LICENSE                           # Licencia del proyecto
+├── LICENSE                           # Project license
 └── README.md
 ```
 
 ## Notebooks
 
-- `Preprocess_Stocks.ipynb`: Limpieza y preparación del dataset original (`all_stocks_5yr.csv`) para su análisis.
-- `Classical_Approximation.ipynb`: Implementación de un modelo clásico de optimización de carteras (p.ej. media-varianza).
-- `Quantum_Approximation.ipynb`: Simulación de una aproximación cuántica a la optimización de carteras utilizando distintas técnicas.
+- `Preprocess_Stocks.ipynb`: Cleans and prepares the original dataset (`all_stocks_5yr.csv`) for analysis.
+- `Classical_Approximation.ipynb`: Implements classical portfolio optimization models (e.g., mean-variance).
+- `Quantum_Approximation.ipynb`: Simulates a quantum approach to portfolio optimization using various techniques with Qiskit.
 
 
 ## Dataset
 
-Los datos provienen de un archivo CSV (`all_stocks_5yr.csv`) que contiene precios históricos de acciones del S&P 500 durante 5 años. El archivo `stocks_cleaned.csv` contiene una versión depurada y lista para su análisis.
+The data comes from a CSV file (`all_stocks_5yr.csv`) containing historical stock prices from the S&P 500 over five years. The `stocks_cleaned.csv` file contains a cleaned and analysis-ready version of the data.
 
 ## Licencia
 
-Este proyecto está licenciado bajo los términos de la licencia MIT. Consulta el archivo `LICENSE` para más información.
+This project is licensed under the terms of the MIT License. See the `LICENSE` file for more details.
