@@ -2,7 +2,7 @@
 
 This project explores different approaches to financial portfolio optimization using both classical methods and quantum-based techniques. It uses a historical stock market dataset to compare the efficiency of both models.
 
-## Estructura del Proyecto
+## Project Structure
 
 ```
 ├── dataset/                          # CSV files with historical stock price data
